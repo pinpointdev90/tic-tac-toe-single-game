@@ -1,0 +1,65 @@
+.Modal {
+  position: fixed;
+  text-align: center;
+  z-index: 99999;
+  background-color: #3b3b3b;
+  width: 70%;
+  border: 1px solid #4a4a4a;
+  box-shadow: 1px 1px 0px 0px #4a4a4a;
+  padding: 16px;
+  left: 15%;
+  top: 10%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+.Backdrop{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top:0;
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+@media (min-width: 600px) {
+  .Modal {
+      width: 500px;
+      left: calc(50% - 250px);
+  }
+}
+
+.Winner_title{
+  color: #ffffff;
+  font-size: 24px;
+}
+.Winner_img{
+  width: 50px;
+    filter: invert(1);
+}
+.Action_btn{
+  background: linear-gradient(180deg, rgb(151, 225, 205), rgb(151, 225, 205));
+  font-size: 24px;
+  font-weight: 500;
+  font-family: sans-serif;
+  padding: 4px 10px;
+  width: 150px;
+  border-radius: 5px;
+  border-bottom: 3px solid rgb(94, 163, 145);
+  margin-right: 10px;
+  text-decoration: none;
+}
+.from_input{
+  height: 18px;
+  font-size: 12px;
+  text-indent: 8px;
+  border-radius: 0px;
+  background: rgb(153, 148, 148);
+  color: #ffff;
+  border: none;
+  width: 180px;
+}
+.from_group{
+  color:#ffff;
+  margin-bottom:5px;
+}

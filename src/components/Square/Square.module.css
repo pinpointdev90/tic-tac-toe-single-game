@@ -1,0 +1,44 @@
+.Square{
+  position: relative;
+  background:none;
+  border-radius: 0px;
+  padding: 0px;
+  border: none;
+  width: 140px;
+  height: 140px;
+  color: #fff;
+  font-size: 83px;
+  font-weight: bold;
+  font-family: fantasy;
+ }
+ .Square:focus{
+  outline: none;
+ }
+ .Square.Active{
+  position: relative;
+  background: rgba(151, 225, 205, 0.72);
+ }
+ .Square span{
+  background: rgb(48, 48, 48,1);
+  margin-top: -3px;
+  display: block;
+  width: 125px;
+  height: 125px;
+  box-shadow: 5px 5px 17px 7px #000
+ }
+ .Square.Active span{
+  background:none;
+ }
+ .Square .line{
+   display: none;
+ }
+ .Square.Active .line{
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  width: 140px;
+  height: 8px;
+  background: #5fd6b6;
+  z-index: 999;
+  box-shadow: none;
+ }

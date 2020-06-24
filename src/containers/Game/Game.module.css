@@ -1,0 +1,36 @@
+.game_wrapper{
+  margin-top: 20px;
+  text-align: center;
+}
+.game_board{
+
+}
+.game_Header{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.game_logo{
+  display: inline;
+  width: 300px;
+}
+.Player_details{
+  display: inline-block;
+  margin-left: 20px;
+  color: #fff;
+}
+.Player_details div{
+  margin-bottom: 6px;
+}
+.Player_details input{
+  height: 18px;
+  font-size: 12px;
+  text-indent: 8px;
+  border-radius: 0px;
+  background: rgb(153, 148, 148);
+  color: #ffff;
+  border: none;
+  width: 180px;
+}

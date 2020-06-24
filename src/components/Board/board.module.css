@@ -1,0 +1,8 @@
+.Box_warapper{
+  margin-top: 40px;
+}
+.Box_row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
